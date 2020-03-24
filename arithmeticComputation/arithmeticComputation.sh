@@ -1,7 +1,6 @@
 #!/bin/bash -x
 echo "Enter three numbers which required to perform arithmetic computation:" 
 read firstNumber secondNumber thirdNumber
-
 key=1                                                                 #Performed arithmetic computation and stored the result
 computationAnsDictionary[key++]=$(( $firstNumber+$secondNumber*$thirdNumber ))
 computationAnsDictionary[key++]=$(( $firstNumber*$secondNumber+$thirdNumber ))
